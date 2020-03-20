@@ -91,10 +91,11 @@ body.lb-disable-scrolling {
 
 .lb-nav a {
   outline: none;
-  background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+  background-image: url("data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==");
 }
 
-.lb-prev, .lb-next {
+.lb-prev,
+.lb-next {
   height: 100%;
   cursor: pointer;
   display: block;
@@ -159,12 +160,12 @@ body.lb-disable-scrolling {
 .lb-data .lb-details {
   width: 85%;
   float: left;
-  text-align: left;
+  text-align: center;
   line-height: 1.1em;
 }
 
 .lb-data .lb-caption {
-  font-size: 13px;
+  font-size: 25px;
   font-weight: bold;
   line-height: 1em;
 }
